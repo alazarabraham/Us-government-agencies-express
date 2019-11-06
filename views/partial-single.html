@@ -1,0 +1,15 @@
+
+<title>Government Agencies</title>
+${data.map(agency => `
+<div class="card text-center" id="card">
+        <div class="card-header">
+                ${agency.name}
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">${agency.founded}</h5>
+          <p class="card-text" id="card">${agency.role}</p>
+          <a href="#" class="btn btn-warning">${agency.administration}</a>
+        </div>
+        <div class="card-footer text-muted">
+        ${agency.located}        </div>
+      </div>`).join('')}

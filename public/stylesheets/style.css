@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  align-content: center;
+  background: rgba(0, 0, 0, 0.945);
+
+}
+
+title{
+  color: white;
+}
+
+#card{
+  background: rgb(rgb(255, 115, 0), rgb(208, 94, 2), blue);
+  width: auto;
+}
